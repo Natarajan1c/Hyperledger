@@ -12,9 +12,9 @@ Login:
 User Dashboard:
 ----------------
 2) FDA Homepage
-    * 
-    * 
-    *
+    * 3 Button & related field to add new participants  (Manufacturer, Distributor, FinalDistributor)
+    * 1 button & related field to Issue new tracking order
+    * 1 Grid to display all devices with filter & search feature - this is low prority)
     
 3) Manufacturer Homepage
 4) Distributor Homepage
