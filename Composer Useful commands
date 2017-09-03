@@ -1,0 +1,12 @@
+
+composer archive create -a dist/my-network.bna --sourceType dir --sourceName
+
+./stopFabric.sh
+./teardownFabric.sh
+
+./startFabric.sh
+./createComposerProfile.sh
+
+composer network deploy -a medical-device-tracking.bna -p hlfv1 -i PeerAdmin -s PeerAdmin
+composer network ping -n medical-device-tracking -p hlfv1 -i PeerAdmin -s PeerAdmin
+composer-rest-server
