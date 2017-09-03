@@ -1,12 +1,21 @@
 Login:
 -------
 1) Login page
-
+    * 2 dropdowns & Login button
+    * DD1: User type (FDA, Manufacturer, Distributor, FinalDistributor, Patient)
+    * DD2: Based on User type selection load all user names of that type
+    * On page load: Populate DD1 with fixed list, disable DD2
+    * On DD1 selection, populate DD2 from Participant list
+    * On Login button click load user dashboard
 
 
 User Dashboard:
 ----------------
 2) FDA Homepage
+    * 
+    * 
+    *
+    
 3) Manufacturer Homepage
 4) Distributor Homepage
 5) FinalDistributor Homepage
